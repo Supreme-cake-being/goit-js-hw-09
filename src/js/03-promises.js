@@ -33,6 +33,7 @@ promiseForm.addEventListener("submit", (e) => {
         Notiflix.Notify.failure(`Rejected promise ${position} in ${delay}ms`);
       });
   }
+  promiseForm.reset()
 });
 
 function createPromise(position, delay) {
